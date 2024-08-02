@@ -61,7 +61,7 @@ printf("Create new student record:\n");
 printf("Full name: ");
 scanf("%s", stud.name);
 while (getchar() != '\n');
-printf("Programminng in C score (/100): ");
+printf("Programming in C score (/100): ");
 if (scanf("%d", &stud.c_prog) != 1 || stud.c_prog < 0 || stud.c_prog > 100)
 {
 printf("Invalid score. Please enter a number between 0 and 100.\n");
