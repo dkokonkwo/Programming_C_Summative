@@ -43,7 +43,8 @@ void loop() {
   // put your main code here, to run repeatedly:
   button = readInfrared();
   Serial.println(button);
-  if (button >= 0)
+  // if button 0 is pressed
+  if (button == 12)
   {
     // togggle light bulb
     if (on_or_off)
